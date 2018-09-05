@@ -1,0 +1,37 @@
+Objectives for Thurs 24th
+	have add staff GUI constructed            |
+	have add staff function working			  |
+	have panel switching buttons working	  |
+	add all top-box panel buttons for entities|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+	// staff menu
+	JTabbedPane staffMenu = new JTabbedPane();
+	JPanel staffHomePanel = new JPanel();
+	JButton btnGoToAddStaff = new JButton();
+
+	//addStaff
+	JPanel addStaffPanel = new JPanel();
+	JButton btnGoHome = new JButton();
+
+	//endaddstaff
+	//searchStaff
+	JPanel searchStaff = new JPanel();
+	//endsearchStaff
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~Buttons~~~~~~~~~~~~~~~~~~~
+			btnGoToAddStaff  | in staff menu   | moves to add staff
+			btnGoHome        | in add staff    | moves to staff home
+			btnHome          | in search bar   | moves to main menu
+~~~~~~~~~~~~~~~~~~~~~~Panels~~~~~~~~~~~~~~~~~~~~
+			staffHomePanel	 | Panel    | 0 | staffMenu
+			addStaffPanel    | Panel    | 1 | staffMenu
+			searchStaff      | Panel    | 2 | staffMenu
+
+			staffMenu        | TabbedPane
+

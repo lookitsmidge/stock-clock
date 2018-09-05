@@ -1,0 +1,31 @@
+Panels
+
+MainMenu
+searchPanel	###
+staffMenu
+	staffHomePanel
+	blankPanel
+	addPanel
+	viewStaff
+clockPanel
+
+
+
+logger---
+	for errors
+		to diagnose issue
+
+		different logging priority.
+		little class to be extended later.
+
+		warning level, debug level.
+
+
+	java has its own logging tool, maybe use it or get my own logging tool
+
+
+
+	referencing
+
+
+	list and arraylist
